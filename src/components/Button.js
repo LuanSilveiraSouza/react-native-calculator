@@ -38,8 +38,7 @@ export default props => {
   });
 
   return(
-    <TouchableHighlight style={stylesButton} //onPress={() => props.onClick(props.label)}>
-    >
+    <TouchableHighlight style={stylesButton} onPress={() => props.onClick(props.label)}>
       <Text style={styles.text}>{props.label}</Text>
     </TouchableHighlight>
   );
